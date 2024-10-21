@@ -182,8 +182,3 @@ When you use Git LFS, the large files (such as textures or models) are not store
 ### **Best Practices for Using Git LFS**
 - **Track only large files**: Avoid tracking small text files (like scripts or configuration files) with Git LFS, as this would add unnecessary complexity.
 - **Keep an eye on storage limits**: Some platforms like GitHub or GitLab have storage quotas for Git LFS, so monitor your usage.
-
-By integrating Git LFS into your Unity project, you'll keep your repository efficient and ensure that large assets don’t hinder development performance.
-
-
-
