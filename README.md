@@ -1,1 +1,1 @@
-# PythonTeek-GitFlow_Guidelines
+# PythonTeek GitFlow Guidelines
