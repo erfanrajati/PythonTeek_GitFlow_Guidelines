@@ -2,9 +2,10 @@
 <head>
   <title>Game Dev Guidelines</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     function loadMarkdown() {
-      fetch('https://raw.githubusercontent.com/erfanrajati/PythonTeek_GitFlow_Guidelines/main/guidelines.md')
+      fetch('guidelines.md')
         .then(response => response.text())
         .then(markdown => {
           document.getElementById('content').innerHTML = marked(markdown);
