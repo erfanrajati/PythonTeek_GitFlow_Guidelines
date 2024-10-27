@@ -5,23 +5,22 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     function loadMarkdown() {
-      fetch('guidelines.md')
+      fetch('folder_structure.md')
         .then(response => response.text())
         .then(markdown => {
-          document.getElementById('guidelines').innerHTML = marked.parse(markdown);
+          document.getElementById('folder_structure').innerHTML = marked.parse(markdown);
         });
     }
   </script>
 </head>
 <body onload="loadMarkdown()">
-  <h1>PythonTeek GitFlow Guidelines (Game Dev team)</h1>
+  <h1>Folder Sctucture Guidelines (Game Dev team)</h1>
   <div id="content">
-    <div id="guidelines"></div>
+    <div id="folder_structure"></div>
     <div id="PlaceHolder"></div>
     <div id="footer">
       <p>Regards,</p>
       <p>Erfan Rajati</p>
-      <a href="folder_structure.html">See also: Folder Structure guidelines</a>
     </div>
   </div>
 </body>
