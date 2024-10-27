@@ -134,7 +134,7 @@
        git lfs track "*.fbx"
        git add .gitattributes
        ```
-   - **More details about Git LFS at section 
+   - **More details about Git LFS at Section 9.**
 
 ## **7. Tagging and Versioning**
    - **Semantic Versioning**:
