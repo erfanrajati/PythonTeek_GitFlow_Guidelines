@@ -85,6 +85,10 @@
      - `feat(assets): add forest textures and tree models`
      - `feat(assets): add background music and sound effects for level 1`
      - `feat(assets): add new character sprites and animations`
+    
+     **Note:**
+     - make sure you separate commits in each of those categories, never commit with more than one category at once.
+     
 
 ## **5. Pull Requests (PRs) and Code Reviews**
    - **Creating PRs**:
