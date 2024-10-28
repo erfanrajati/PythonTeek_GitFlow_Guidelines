@@ -13,6 +13,9 @@
         [Bb]uild/
         [Bb]uilds/
         Assets/AssetStoreTools*
+
+        # make sure to include logs on .gitignore, it is not automatically generated.
+        .log
        ```
    - **Step 2: Initialize Git Repository**
      - In the Unity project directory, run:
